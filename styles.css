@@ -1,0 +1,72 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    overflow-x: hidden;
+}
+a{
+    color: white;
+    font-family: 'Noto Sans TC', sans-serif; 
+}
+
+.main-section i{
+    color:#CD3278;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+h1,h3{
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.navbar-brand:hover,footer .icon-text a:hover{
+color: #CD3278;
+}
+
+ header{
+     height: 100vh;
+     background: url("./images/actionvance-eXVd7gDPO9A-unsplash.jpg");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+
+ header h1{
+     text-align: center;
+     font-size: 3.5rem;
+    padding-top: 2rem;
+     color: black;
+
+ }
+ 
+form .form-control{
+    display: block;
+} 
+ .map iframe{
+     width: 100%;
+ }
+
+ footer .icon-text{
+  display: flex;
+  flex-direction: column;
+  padding-top: 3rem;
+ }
+  footer .paras , footer i{
+     padding-top: 2.5rem;
+ }
+ footer h3{
+     letter-spacing: 0.5rem;
+     font-weight:bold;
+    color: #CD3278; 
+
+ }
+ footer i{
+     color:white
+ }
+ footer i:hover{
+   color: #CD3278;
+ }
+
+ 
